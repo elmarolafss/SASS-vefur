@@ -1,0 +1,51 @@
+body {
+    font-family: Helvetica;
+    
+    p {
+        font-family:arial;
+    }
+    p.header {
+        font-family: sans;
+    }
+}
+
+.header {
+
+    
+    &:hover {
+        color: #2980b9;
+        
+    }
+}
+
+.box1 {
+    
+    &:hover {
+        background-color: #e74c3c;
+    }
+}
+.box2 {
+    
+    &:hover {
+        background-color: #e67e22;
+    }
+}
+.box3 {
+    
+    &:hover {
+        background-color: #34495e;
+    }
+}
+.box4 {
+    
+    &:hover {
+        background-color: #3498db;
+    }
+}
+p{
+    
+    &:hover{
+        font-style: arial;
+        color: #c0392b;
+    }
+}

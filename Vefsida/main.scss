@@ -1,0 +1,40 @@
+$bakgrunnur: #ecf0f1;
+$letur: arial;
+$border: 2px solid #e74c3c;
+$headlitur: #34495e;
+$articlelitur: #95a5a6;
+$asidelitur: #bdc3c7;
+$footerlitur: #7f8c8d;
+$stafirlitur: #8e44ad;
+$h2litur: #2980b9;
+
+body {
+	background-color: $bakgrunnur;
+
+}
+h1 {
+	font-family: $letur;
+	text-align: center;
+}
+header{
+	border: $border;
+	display: flex;
+	background-color: $headlitur;
+}
+article{
+	background-color: $articlelitur;
+}
+aside{
+	background-color: $asidelitur;
+}
+footer{
+	background-color: $footerlitur
+}
+p{
+	color: $stafirlitur;
+}
+
+h2{
+	color: $h2litur;
+}
+
